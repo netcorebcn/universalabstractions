@@ -40,13 +40,16 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">GET TICKET</a>
+            <a class="nav-link js-scroll-trigger" href="#ticket">GET TICKET</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">ABOUT</a>
+            <a class="nav-link js-scroll-trigger" href="#about">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">VENUE</a>
+            <a class="nav-link js-scroll-trigger" href="#speaker">SPEAKER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#venue">VENUE</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">CONTACT</a>
@@ -78,120 +81,156 @@
         <div class="col-lg-8 align-self-baseline">
           <p class="text-white-75 font-weight-light mb-5">2 full days workshop with <a href="https://twitter.com/ploeh"
               target="blank">Mark Seemann</a> </p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Get Ticket</a>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#ticket">Get Ticket</a>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- About Section -->
-  <section class="page-section bg-primary" id="about">
+  <!-- Ticket Section -->
+  <section class="page-section" id="ticket">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0">We've got what you need!</h2>
-          <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">
-            Most programmers try to ‘invent’ abstractions from scratch. This is an elusive goal. It requires a level of
-            foresight
-            rarely available. What if, instead, you could use existing, universal abstractions?
-
-            For decades, programmers have dreamt of being able to assemble software from building blocks, like Lego
-            bricks. In order
-            to do this, such building blocks must be composable, like Lego bricks. What makes an abstraction composable?
-            It turns
-            out that lambda calculus, abstract algebra, and category theory can teach us about composability and other
-            fundamental
-            abstractions of programming. Furthermore, it turns out that some of the most important design patterns in
-            the Gang of
-            Four book are special cases of such universal abstractions.
-
-            Framing programming abstractions in mathematical terms has some advantages, one of which is that we get
-            objective laws
-            that we can use to test our assumptions. You can, for example, use such laws to determine whether an
-            abstraction is
-            composable – even in object-oriented programming!
-
-            In this workshop, you’ll learn some objective criteria to determine whether a design is composable, and when
-            various
-            design patterns apply. No special background in mathematics is required.
-
-            The workshop will include a combination of lecture and exercises, including hands-on programming exercises.
-
-            Successful participation in the workshop should enable you to use universal abstractions in your source
-            code. As always,
-            no silver bullet is implied. You will learn about universal abstractions, but it will not magically make all
-            your code
-            instantly perfect.
-
-            Intended Audience
-            This workshop is for object-oriented programmers curious about functional programming and the mathematical
-            foundations
-            of programming. You’ll see F# and Haskell code examples during the workshop, but you don’t have to know
-            these language;
-            you’ll learn what you need along the way.
-
-            Prerequisites
-            The fanciest C# features you’ll use is generics, so programmers with only passing familiarity with C# may be
-            able to
-            participate as well.
-
-            Computer Setup
-            You’ll need to bring your own programming environment capable of compiling and running C# code on the .NET
-            framework
-            (not .NET Core), as well as xUnit.net-based unit tests. You’ll also need a Git client.
-
-            Speaker
-            Mark Seemann Mark Seemann
-            Functional Prog., Object- Oriented Dev. & Architecture
-            Date
-            26 - 27 Feb
-
-            Start time
-            09:00
-
-            End time
-            17:00
-          </p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+      <h2 class="text-center mt-0">Get Your Ticket</h2>
+      <hr class="divider my-4">
+      <h3 class="text-center mt-0">2 full days workshop with Breakfast and Lunch included</h3>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Early Bird - 500 EUR</h3>
+            <p class="text-muted mb-0">Only 15 seats available!</p>
+            <p class="text-muted mb-0">Deadline by 28th June</p>
+            <hr class="divider my-4">
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">Get Early Bird!</a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Regular Ticket - 700 EUR</h3>
+            <p class="text-muted mb-0">Only 10 seats available!</p>
+            <p class="text-muted mb-0">Deadline 16th September</p>
+            <hr class="divider my-4">
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">Get Regular Ticket!</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Services Section -->
-  <section class="page-section" id="services">
+  <!-- About Section -->
+  <section class="page-section bg-dark text-white" id="about">
     <div class="container">
-      <h2 class="text-center mt-0">At Your Service</h2>
-      <hr class="divider my-4">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Sturdy Themes</h3>
-            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
-          </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
+          <h2 class="text-white mt-0">Workshop: From Design Patterns to universal abstractions</h2>
+          <hr class="divider light my-4">
+          <p class="text-white-50 mb-4">
+            Would you like to write readable code? Code that you can understand a year later? Code that your co-workers
+            can understand?
+          </p>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Up to Date</h3>
-            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
-          </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
+          <h4 class="text-white mt-0"></h4>
+          <p class="text-white-50 mb-4">
+            Most programmers try to ‘invent’ abstractions from scratch. This is an elusive goal. It requires a level of
+            foresight rarely available. What if, instead, you could use existing, universal abstractions?
+            For decades, programmers have dreamt of being able to assemble software from building blocks, like Lego
+            bricks. In order to do this, such building blocks must be composable, like Lego bricks. What makes an
+            abstraction composable?
+            It turns out that lambda calculus, abstract algebra, and category theory can teach us about composability
+            and other fundamental abstractions of programming. Furthermore, it turns out that some of the most important
+            design patterns in the Gang of Four book are special cases of such universal abstractions.
+            Framing programming abstractions in mathematical terms has some advantages, one of which is that we get
+            objective laws that we can use to test our assumptions. You can, for example, use such laws to determine
+            whether an abstraction is composable – even in object-oriented programming!
+            In this workshop, you’ll learn some objective criteria to determine whether a design is composable, and when
+            various design patterns apply. No special background in mathematics is required.
+            The workshop will include a combination of lecture and exercises, including hands-on programming exercises.
+            Successful participation in the workshop should enable you to use universal abstractions in your source
+            code. As always, no silver bullet is implied. You will learn about universal abstractions, but it will not
+            magically make all your code instantly perfect.
+          </p>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Ready to Publish</h3>
-            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
-          </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
+          <h4 class="text-white mt-0">Intended Audience</h4>
+          <hr class="divider light my-4">
+          <p class="text-white-50 mb-4">
+            This workshop is for object-oriented programmers curious about functional programming and the mathematical
+            foundations of programming. You’ll see F# and Haskell code examples during the workshop, but you don’t
+            have
+            to know these language; you’ll learn what you need along the way.
+          </p>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Made with Love</h3>
-            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
-          </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
+          <h4 class="text-white mt-0">Prerequisites</h4>
+          <hr class="divider light my-4">
+          <p class="text-white-50 mb-4">
+            The fanciest C# features you’ll use is generics, so programmers with only passing familiarity with C# may be
+            able to participate as well.
+          </p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
+          <h4 class="text-white mt-0">Computer Setup</h4>
+          <hr class="divider light my-4">
+          <p class="text-white-50 mb-4">
+            You’ll need to bring your own programming environment capable of compiling and running C# code on the .NET
+            framework (not .NET Core), as well as xUnit.net-based unit tests. You’ll also need a Git client.
+          </p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <a class="btn btn-light btn-xl js-scroll-trigger" href="#ticket">Get Ticket!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Speaker Section -->
+  <section class="page-section" id="speaker">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
+          <h2 class="mt-0">Mark Seemann</h2>
+          <p class="text-muted mb-5">Functional Prog., Object- Oriented Dev. & Architecture</p>
+          <img src="img/markseemann.jpg" alt="Mark Seemann" class="img-avatar">
+          <hr class="divider my-4">
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center">
+          <p class="text-muted mb-5">
+            Mark Seemann helps programmers make code easier to maintain. His professional interests include functional
+            programming, object–oriented development, software architecture, as well as software development in general.
+            Apart from writing a book about Dependency Injection he has also created several Pluralsight courses, and
+            written numerous articles and blog posts about programming. Originally poised to become a rock star or
+            (failing that) graphic novelist (in the European tradition) he one day found himself with insufficient
+            talent for either, a master’s degree in Economics, and a desire for working with computers. He has been
+            doing the latter intermittently since 1995.
+            When not working with software or spending time with his family, Mark enjoys reading, listening to and
+            playing music, as well as preparing or consuming gourmet food and wine.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Venue Section -->
+  <section class="page-section bg-primary" id="venue">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0">Venue</h2>
+          <hr class="divider light my-4">
+          <p class="text-white-50 mb-4">
+          </p>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#ticket">Get Ticket!</a>
         </div>
       </div>
     </div>
@@ -280,14 +319,6 @@
           </a>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Call to Action Section -->
-  <section class="page-section bg-dark text-white">
-    <div class="container text-center">
-      <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-      <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
     </div>
   </section>
 
