@@ -45,3 +45,7 @@ hr.light {
   height: 200px;
   border-radius: 70%;
 }
+
+i:hover{
+  @extend .text-dark
+}
